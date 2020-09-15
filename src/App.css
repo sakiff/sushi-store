@@ -1,0 +1,270 @@
+/*-----------------Navigation-------------------------*/
+.navbarStyle {
+  background-color: rgba(0, 0, 0, 0.836);
+}
+
+.nav-link {
+  color: rgba(253, 204, 42, 0.87) !important;
+  text-decoration: none;
+  display: inline;
+  padding: 10px;
+  cursor: pointer;
+}
+.navBtn {
+  color: rgba(253, 204, 42, 0.87) !important;
+  text-decoration: none;
+  display: inline;
+  padding: 5px;
+  width: 8rem;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+  border-radius: 25px;
+  border: 1px solid;
+  border-color: rgba(253, 204, 42, 0.87) !important;
+
+
+}
+.navBtn:hover{
+  background-color: rgba(253, 204, 42, 0.87);
+  color: black !important;
+  border-color: black;
+  transition: 0.4s ease-in-out;
+  cursor: pointer;
+}
+/*---------------- Menu -------------------------- */
+.App {
+  text-align: center;
+}
+
+.Banner img {
+  width: 100%;
+  height: auto;
+}
+
+.appetizers {
+  text-align: center;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.menu {
+  font-family: Josefin Slab, sans-serif;
+}
+
+.menu-title {
+  text-align: center;
+  padding: 15px;
+}
+.menu-title h1{
+  display: inline;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 7px;
+}
+.fishBone {
+  height: auto;
+  width: 50px;
+  margin: 10px;
+  
+}
+
+.menu-sub-title {
+  position: relative;
+  margin-left: 2.3rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+
+}
+
+.sushiRolls {
+  column-count: 2;
+  margin: 10px;
+  column-gap: 35px;
+  text-align: center;
+}
+
+.noodlesSection {
+  text-align: center;
+}
+
+.drinkSection {
+  margin : auto;
+  width: 51%;
+}
+
+
+.notice {
+  text-align: center;
+}
+/*---------------- About -------------------------- */
+.aboutSection{
+  font-family: Josefin Slab, sans-serif;
+  z-index: 1;
+  background-color: rgba(253, 204, 42, 0.87);
+  padding: 20px;
+  padding-bottom: 15vh;
+  
+}
+
+.aboutSection h1 {
+  font-weight: bold;
+  margin-top: 3rem;
+  margin-left: 1.5rem;
+}
+.aboutSection h2 {
+  text-align: center;
+  font-weight: bold;
+  margin: 1rem 0;
+  color: white;
+  background-color: black;
+  padding: 10px;
+}
+
+.aboutSection p {
+  text-align: center;
+  color: black; 
+}
+
+.aboutSection img {
+  margin-left: 18%;
+  margin-top: 5%;
+  display: block;
+  width: 70%;
+
+}
+
+.innerAbout {
+  margin: auto;
+  width: 80%
+}
+
+
+
+
+/*---------------Reservations----------------------*/
+.nameInput {
+  justify-content: center;
+}
+
+.reservations {
+  font-family: Josefin Slab, sans-serif;
+  position: relative;
+  padding: 2rem;
+  text-align: left;
+}
+
+.customBtn {
+  border-radius: 18px;
+  margin: auto 43%;
+  width: 5rem;
+  background-color: transparent;
+  color: black;
+  border-color:  rgba(253, 204, 42, 0.87);
+  cursor: pointer;
+}
+/*--------------------Order---------------------*/
+.order {
+  display: inline;
+}
+.orderSubtitle {
+  text-align: center;
+  font-family: Josefin Slab, sans-serif;
+  margin-top: 4rem;
+}
+.orderCard {
+  margin: 2rem 1rem;
+  display: inline-block;
+}
+.orderTitle {
+  text-align: center;
+}
+.orderPrice {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.orderImage {
+  height: 150px;
+  width: 150px;
+  margin-left: 20px;
+  position: relative;
+}
+.addToCart {
+  background-color: rgba(253, 204, 42, 0.87);
+  color: black;
+  font-family: Josefin Slab, sans-serif;;
+  border-radius: 18px;
+  width: 7rem;
+  border: none;
+  margin-top: 5%;
+}
+.addToCart:hover {
+cursor: pointer;
+background-color: black;
+color: rgba(253, 204, 42, 0.87)
+}
+.order-container {
+  text-align: center;
+  padding: 20px 200px;
+}
+/*--------------Contact Footer------------------*/
+footer {
+  background-color: rgba(17, 17, 20, 0.856);
+  padding: 40px;
+}
+
+.contact h1 {
+  font-family: Josefin Slab, sans-serif;
+  color: rgb(172, 172, 172);
+}
+
+.contact-form {
+  height: 200px;
+  margin: 0 14% 7rem;
+  width: 60%;
+
+}
+
+.contact h6, p {
+  color: rgb(158, 157, 157);
+  display: inline;
+  padding: 3.6rem; 
+  
+  
+}
+.contact button {
+  color: white;
+  margin:  0 48%;
+  cursor: pointer;
+  
+}
+.contact input {
+  border: none;
+  border-bottom: 0.5px solid  rgba(253, 204, 42, 0.87);
+  background-color: transparent;
+  font-family: Josefin Slab, sans-serif;;
+  width: 100%;
+  margin: 2rem;
+}
+::placeholder {
+  color: rgb(158, 157, 157);
+}
+
+.footerLinks {
+  display: inline;
+  margin-left: 5rem;
+}
+
+.gg-TiSocialTwitter {
+  color:white;
+}
+
+i {
+  color: rgba(253, 204, 42, 0.87);
+  padding: 10px;
+  cursor: pointer
+}
